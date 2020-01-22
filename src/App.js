@@ -4,10 +4,12 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
+      <h1>NASA Picture of the Day</h1>
       <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
+        Click the buttons below to go back or forward!
       </p>
+      <PostContainer />
+      <ContainerInput />
     </div>
   );
 }
